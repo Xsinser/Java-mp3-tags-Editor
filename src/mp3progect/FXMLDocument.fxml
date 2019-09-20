@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mp3progect.FXMLDocumentController">
+   <children>
+      <Button fx:id="sortButton" layoutX="300.0" mnemonicParsing="false" onAction="#onSortButtonClick" prefHeight="461.0" prefWidth="301.0" text="Сортировать!">
+         <font>
+            <Font name="Ebrima" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="redactButton" layoutX="1.0" mnemonicParsing="false" onAction="#onRedactButtonClick" prefHeight="461.0" prefWidth="298.0" text="Редактировать!">
+         <font>
+            <Font name="Ebrima" size="30.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</Pane>

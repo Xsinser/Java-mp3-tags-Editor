@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mp3progect.sorting.SecondWindow.SecondSortWController">
+   <children>
+      <Button fx:id="choseButton" layoutX="255.0" layoutY="254.0" mnemonicParsing="false" onAction="#onChoseButtonClick" prefHeight="51.0" prefWidth="111.0" text="Выбрать!">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="38.0" layoutY="122.0" text="Выберете папку для сохранения!" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="23.0" layoutY="23.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="НАЗАД" />
+   </children>
+</Pane>

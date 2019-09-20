@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mp3progect.sorting.FinalWindow.EndSortWController">
+   <children>
+      <Pane fx:id="progresPanel" prefHeight="461.0" prefWidth="600.0" visible="false">
+         <children>
+            <ProgressBar fx:id="progresBar" layoutX="38.0" layoutY="213.0" prefHeight="18.0" prefWidth="524.0" progress="0.0" />
+            <Button fx:id="finishButton" disable="true" layoutX="243.0" layoutY="241.0" mnemonicParsing="false" onAction="#onFinishButtonClick" text="Готово!" />
+            <Label layoutX="38.0" layoutY="187.0" text="Идет сортировка! Пожалуйста, подождите" />
+         </children>
+      </Pane>
+      <Pane fx:id="startPanel" layoutX="-4.0" layoutY="-4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="614.0">
+         <children>
+            <Button fx:id="startButton" layoutX="252.0" layoutY="215.0" mnemonicParsing="false" onAction="#onStartButtonClick" prefHeight="53.0" prefWidth="109.0" text="Начать!">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="189.0" layoutY="132.0" text="Начать сортировку!">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Button fx:id="backButton" layoutX="252.0" layoutY="291.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="53.0" prefWidth="109.0" text="Отмена">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>
